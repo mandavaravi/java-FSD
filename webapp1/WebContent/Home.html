@@ -1,0 +1,44 @@
+<form>
+
+<table >
+
+<tr>
+<th align="left"> Customer Name</th> <td> <input type="text" name="cusName" pattern=".{3,}" required> </td>
+</tr>
+
+<tr>
+<th align="left"> Mobile num </th> <td> <input type="text" name="Phone Number" pattern="[7-9]{1}[0-9]{9}" required > </td>
+</tr>
+
+<tr>
+<th align="left"> Product </th>
+<td> 
+<select> 
+<option> Soaps </option>
+<option> Clothes </option>
+<option  > Handbags </option>
+<option> Washing machine </option>
+<option> Food items </option>
+</select>
+</td>
+</tr>
+
+<tr>
+<th align="left"> GST </th>
+<td> <input type="text" name="GST"  readonly></td>
+</tr>
+
+<tr>
+<th align="left"> Product Price </th>
+<td> <input type="number" step="0.01" name="price" required ></td>
+</tr>
+
+
+<tr>
+<td><input type="submit" value="Sub"></td>
+<td> <input type="reset" value="Reset"> </td>
+</tr>
+
+</table>
+
+</form>

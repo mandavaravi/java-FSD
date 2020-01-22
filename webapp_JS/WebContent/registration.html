@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title> </title>
+
+<script src="Ex1.js"> </script>
+</head>
+<body onload="document.registration.ID.focus();">
+
+<form name="registration" onSubmit="fun1()">
+<table border="">
+
+<tr> 
+<td bgcolor="#bfbfbf">UserID: </td>
+<td bgcolor="#e6e6e6"> <input type="text" name="ID"> </td>
+</tr>
+
+<tr> 
+<td bgcolor="#bfbfbf">Password: </td>
+<td bgcolor="#e6e6e6"> <input type="password" name="Password"> </td>
+</tr>
+
+
+<tr> 
+<td bgcolor="#bfbfbf">Name: </td>
+<td bgcolor="#e6e6e6"> <input type="text" name="Name"> </td>
+</tr>
+
+
+<tr> 
+<td bgcolor="#bfbfbf">Email: </td>
+<td bgcolor="#e6e6e6"> <input type="Email" name="Email"> </td>
+</tr>
+
+
+<tr> 
+<td bgcolor="#bfbfbf">ZIP: </td>
+<td bgcolor="#e6e6e6"> <input type="number" name="Zip"> </td>
+</tr>
+
+
+<tr> 
+<td bgcolor="#bfbfbf">Gender: </td>
+<td bgcolor="#e6e6e6"> 
+<input type="radio" name="Gender" id="Gender" value="male">Male 
+<input type="radio" name="Gender" id="Gender" value="female"> Female
+</td>
+</tr>
+
+
+<tr> 
+<td bgcolor="#bfbfbf">Address: </td>
+<td bgcolor="#e6e6e6"> <textarea name="Address" rows="6" cols="30"></textarea></td>
+</tr>
+
+<tr> 
+<td bgcolor="#bfbfbf">Language: </td>
+<td bgcolor="#e6e6e6"> 
+<select name="Language">
+	<option value="none" selected>Select an Option </option>
+    <option value="English">English</option>
+    <option value="Hindi">Hindi</option>
+    <option value="Telugu">Telugu</option>
+    <option value="Tamil">Tamil</option>
+  </select>
+</td>
+</tr>
+
+
+
+<tr> 
+<td bgcolor="#bfbfbf">Country: </td>
+<td bgcolor="#e6e6e6"> 
+<select name="Country">
+	<option value="none" selected>Select an Option </option> 
+    <option value="India">India</option>
+    <option value="Sri Lanka">Sri Lanka</option>
+    <option value="Italy">Italy</option>
+    <option value="Japan">Japan</option>
+  </select>
+</td>
+</tr>
+
+<tr> 
+<td bgcolor="#bfbfbf">About: </td>
+<td bgcolor="#e6e6e6"> <textarea name="About" rows="3" cols="30"></textarea></td>
+</tr>
+
+
+
+<tr>
+<td bgcolor="#e6e6e6"> <input type="submit" value="Register" > </td>
+<td bgcolor="#e6e6e6"> <input type="reset" value="Reset"  > </td>
+</tr>
+
+</table>
+</form>
+
+</body>
+</html>
